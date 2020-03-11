@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BehaviorTree</title>
+        <script src="lib/three.min.js"></script>
+        <script src="lib/OrbitControls.js"></script>
+        <script src="src/main.js"></script>
+        <meta charset="utf-8">
+        <style>
+            canvas, div {
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="800" height="800"></canvas>
+        <div>
+            <button onclick="addNode();">node</button><br>
+            <button onclick="connectNode();">connect</button><br>
+            <input id="inputText" oninput="inputText();" type="text">
+        </div>
+    </body>
+</html>
